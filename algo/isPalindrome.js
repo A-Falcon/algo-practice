@@ -1,6 +1,6 @@
 // a palindrome is when a word or phrase is identical to its revered spelling
 
-//first we define declare our function which is going to take a string
+//first we declare our function which is going to take a string
 const isPalindrome = function(s) {
   //then we want to make sure to take away any spaces or symbols and only allow numbers and characters in the alphabet
   // do not forget have only one casing throught the word or phrase
