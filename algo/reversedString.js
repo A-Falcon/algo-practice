@@ -16,3 +16,11 @@ const reversedString = function(str) {
 }
 
 console.log(reversedString('hello'))
+
+const reversedStr = (str) => {
+  return str
+    .split('')
+    .reverse()
+    .join('')
+}
+console.log(reversedStr('poopy'))

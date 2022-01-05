@@ -9,11 +9,12 @@
 const findLongestWord = function(str) {
   //we will initialize 'words' as our passed in string split up by spaces
   let words = str.split(' ')
+  console.log(words)
   // then we will initialize our maxLength as 0 so that we can count up to the max length
   let maxLength = 0
 
   //we will set up the conditions in our for loop.
-  //we will initialize i as 0, and if i os less than our words length, we will increment i by one each time
+  //we will initialize i as 0, and if i is less than our words length, we will increment i by one each time
   for (let i = 0; i < words.length; i++) {
     //then we will set an if statment; if an index : [i], in our string : words, has a length greater then maxLength,
     if (words[i].length > maxLength) {
