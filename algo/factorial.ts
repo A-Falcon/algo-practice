@@ -3,7 +3,7 @@
 // ex: 6! =>  6 * 5 * 4 * 3 * 2 * 1 == 720
 
 // to start, we will declare our function which will take in a number
-const factorialize = function(num) {
+function factorialize(num:number):number {
   // then we will initialize a variable as 1 since the return values for our function will always
   // be greter than or equal to 1.
   // if we had set it to 0, our loop condition would always be false since anthing multipled by 0 is 0

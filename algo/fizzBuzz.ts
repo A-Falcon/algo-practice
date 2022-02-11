@@ -1,6 +1,6 @@
 
-function fizzBuzz(n) {
-  let result = []
+function fizzBuzz(n:number):any {
+  let result:any = []
 
   for (let i = 1; i <= n; i++) {
     if (i % 3 === 0 && i % 5 === 0) {

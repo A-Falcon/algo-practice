@@ -6,9 +6,9 @@
 // maxLength = 5
 
 //first we declare our function findLongestWord which takes in a string
-const findLongestWord = function(str) {
+function findLongestWord(str:string):number {
   //we will initialize 'words' as our passed in string split up by spaces
-  let words = str.split(' ')
+  let words:string[] = str.split(' ')
   console.log(words)
   // then we will initialize our maxLength as 0 so that we can count up to the max length
   let maxLength = 0

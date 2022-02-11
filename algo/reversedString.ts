@@ -1,7 +1,7 @@
 //an example of a reversedString is 'ball' = 'llab'
 
 // first we declar our function which will take a string
-const reversedString = function(str) {
+ function reversedString(str:string):string {
   //reminder: strings are like arrays
   //so to return our string reversed, we will access the characters with split('').reverse().join('')
   return (
@@ -17,7 +17,9 @@ const reversedString = function(str) {
 
 console.log(reversedString('hello'))
 
-const reversedStr = (str) => {
+
+
+function reversedStr(str:string):string {
   return str
     .split('')
     .reverse()
