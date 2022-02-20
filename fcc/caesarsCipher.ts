@@ -2,9 +2,9 @@
 // A more comming use of this cipher is ROT13  which shifts the alphabet 13 spaces down: A-Z => N-M
 
 //We will be declaring our function rot13 and it takes in a string
-function rot13(str) {
+function rot13(str:string):string{
   // we will first define out alphabet 'alpha' with an array of the characters
-  const alpha = [
+  const alpha: string[] = [
     'A',
     'B',
     'C',
@@ -32,7 +32,7 @@ function rot13(str) {
     'Z'
   ]
   //we will also define alpha13 as our shifted alphabet that goes from n-m
-  const alpha13 = [
+  const alpha13:string[] = [
     'N',
     'O',
     'P',
@@ -60,10 +60,10 @@ function rot13(str) {
     'M'
   ]
   //we will modify our passed in str so that lower case strings can be matched to our alphabets
-  let ourStr = str.toUpperCase()
+  let ourStr:string = str.toUpperCase()
 
   //we are initializing 'results' as an empty array so that we can pass in our ciphered string at the end
-  let results = []
+  let results:string[]= []
   //our for loops will check if 'ourStr' has a match in our 'alpha'
   for (let i = 0; i < ourStr.length; i++) {
     for (let j = 0; j < alpha.length; j++) {
