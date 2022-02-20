@@ -5,7 +5,7 @@
 // we will be using regex for this function
 
 // to start we will declare our function that will take in a string
-function validTelephone(str) {
+function validTelephone(str:string):boolean {
   //this regex will test and reutrn if our string...:
   // there is one/zero '1' in the begining,
   // if there is one/zero 'whitespace'(hyphen or space),
